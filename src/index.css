@@ -8,7 +8,7 @@
   --main-background-col: #fff;
   --main-contrast-blue: #272890;
   --main-contrast-yellow: #ffa500;
-  --main-text-col: #777;
+  --main-text-col: #555;
   --main-text-light-col: #aaa;
   --main-text-warning: red;
 }
@@ -19,4 +19,13 @@ body {
   margin: 0;
   min-height: 100vh;
   min-width: 320px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--main-contrast-blue);
+  font-weight: bold;
 }

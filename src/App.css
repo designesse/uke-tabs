@@ -4,6 +4,18 @@
   padding: 2rem 4rem;
 }
 
+.link-list a {
+  display: block;
+  font-size: .8em;
+  font-weight: bold;
+  margin-bottom: .5em;
+  text-transform: uppercase;
+}
+
+.link-list a:hover {
+  text-decoration: underline;
+}
+
 .pos-abs-top {
   font-size: .8em;
   position: absolute;
@@ -14,4 +26,11 @@
   font-size: .8em;
   margin-bottom: 40px;
   position: relative;
+}
+
+.top-sticky {
+  background-color: var(--main-background-col);
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
