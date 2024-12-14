@@ -16,6 +16,10 @@
   text-decoration: underline;
 }
 
+.marg-bot {
+  margin-bottom: 1em;
+}
+
 .pos-abs-top {
   font-size: .8em;
   position: absolute;
@@ -24,7 +28,7 @@
 
 .pos-rel-top {
   font-size: .8em;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   position: relative;
 }
 
