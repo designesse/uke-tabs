@@ -4,6 +4,12 @@
   padding: 2rem 4rem;
 }
 
+#auto-scroll {
+  position: fixed;
+  right: 3em;
+  width: 150px;
+}
+
 .link-list a {
   display: block;
   font-size: .8em;
@@ -30,6 +36,10 @@
   font-size: .8em;
   margin-bottom: 30px;
   position: relative;
+}
+
+.text-small {
+  font-size: .75em;
 }
 
 .top-sticky {

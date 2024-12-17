@@ -15,7 +15,7 @@
 
 body {
   color: var(--main-text-col);
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin: 0;
   min-height: 100vh;
   min-width: 320px;
@@ -28,6 +28,27 @@ a {
 a:hover {
   color: var(--main-contrast-blue);
   font-weight: bold;
+}
+
+button {
+  border: 2px solid var(--main-contrast-blue);
+  border-radius: .5em;
+  color: var(--main-contrast-blue);
+  font-size: .8em;
+  margin: .1em;
+  padding: .25em .5em;
+}
+
+button:not([disabled]):hover {
+  background-color: var(--main-text-light-col);
+  border: 2px solid var(--main-contrast-yellow);
+  color: var(--main-contrast-yellow);
+  cursor: pointer;
+}
+
+button:disabled {
+  border: 2px solid var(--main-text-light-col);
+  color: var(--main-text-light-col);
 }
 
 h1 {
