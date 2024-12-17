@@ -78,9 +78,10 @@ const SongWrapper = ({children}: {children: React.ReactElement}) => {
                 <NavLink to="/"> &#8592; </NavLink>
             </header>
             <div id="auto-scroll">
+                <button className="button-text" onClick={() => window.scroll({top: 0, left: 0, behavior: "smooth"})}> &#8593; go to top</button>
                 <div>
                     <button onClick={() => handleUpdateTop("-")} disabled={ isDebounced || !isScroll || top <= topMin }> - </button>
-                    <button onClick={() => setIsScroll((isScroll) => !isScroll)} disabled={ isDebounced }>
+                    <button onClick={() => setIsScroll((isScroll) => !isScroll)} disabled={isDebounced}>
                         { isScroll ? <>&#9632;</> : <>&#9658;</> }
                     </button>
                     <button onClick={() => handleUpdateTop("+")} disabled={ isDebounced || !isScroll || top >= topMax }> + </button>

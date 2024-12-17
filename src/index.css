@@ -51,6 +51,19 @@ button:disabled {
   color: var(--main-text-light-col);
 }
 
+button.button-text {
+  border: none;
+  background-color: unset;
+}
+
+button.button-text:hover {
+  border: none;
+  background-color: unset;
+  color: var(--main-contrast-blue);
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 1.1em;
   margin-bottom: 2em;
