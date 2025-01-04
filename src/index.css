@@ -77,3 +77,12 @@ h2 {
   margin-bottom: 1.5em;
   padding-top: .5em;
 }
+
+hr {
+  float: left;
+  width: 50%;
+}
+
+hr + * {
+  clear: both;
+}
